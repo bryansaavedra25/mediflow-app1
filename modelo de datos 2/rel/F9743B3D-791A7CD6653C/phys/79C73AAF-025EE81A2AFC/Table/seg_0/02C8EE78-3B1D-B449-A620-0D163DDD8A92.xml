@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="CLIENTES_US" directorySegmentName="seg_0" id="02C8EE78-3B1D-B449-A620-0D163DDD8A92">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<schemaObject>192670CC-985B-9EBA-3858-0C008862BE08</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>86C1703F-B541-0063-0DE5-7F8FD52A440D</segment>
+<tableSpace>8E28251C-8494-9C5C-F748-A33C152295C4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>QUERY HIGH</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUMRUT_CLI" id="43487281-0A59-6DDA-3420-7654DEB84CE1">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLAVE" id="4CFBDF3D-AF71-8F67-52C6-E46F680E2054">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO" id="AC2C7E8B-4AB7-3E7D-A512-5442FB7BC349">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="CDA90F61-5F95-36A5-1CCF-7FC901B3B51C">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO" id="E639A928-138B-A78A-CC03-534465104410">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CLIENTES_US_PK" id="202D8540-55E5-3384-58D4-36F15FF9339D">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:19 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<schemaObject>192670CC-985B-9EBA-3858-0C008862BE08</schemaObject>
+<segment>DA19692D-BF19-6BFC-593D-70D6D664C85B</segment>
+<tableSpace>8E28251C-8494-9C5C-F748-A33C152295C4</tableSpace>
+<indexSegment>DA19692D-BF19-6BFC-593D-70D6D664C85B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

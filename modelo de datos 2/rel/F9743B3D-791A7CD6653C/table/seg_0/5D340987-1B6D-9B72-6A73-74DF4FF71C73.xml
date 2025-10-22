@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5D340987-1B6D-9B72-6A73-74DF4FF71C73" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="CARRERA">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>CARRERA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CARRERA" id="D654B767-7174-4B7F-B2E6-72C7282878E5">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>ID_CARRERA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="NOMBRE" id="63374F21-4161-2ECA-6E43-C21C867CF186">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACION_SEM" id="2127CEC5-82E5-0AE4-892F-A7557E776D42">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>DURACION_SEM</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<constraintName>CK_CARRERA_DURACION</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>2</beginValue>
+<endValue>12</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="TITULO" id="877998C7-8B95-2201-C4E3-4402D05E6628">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>CARRERA</sourceObjSchema>
+<sourceObjName>TITULO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CE83677-1BF2-5B12-FFD7-B1EA123FCB55" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="CARRERA_PK">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>SYS_C00381191</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:17 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D654B767-7174-4B7F-B2E6-72C7282878E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50204D19-5A7B-D71C-5156-D91611C806EA" name="UQ_CARRERA_NOMBRE">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>UQ_CARRERA_NOMBRE</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:19 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63374F21-4161-2ECA-6E43-C21C867CF186"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A80A9D4-688D-5210-4422-659BCC34A669" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="UQ_CARRERA_NOMBRE">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>UQ_CARRERA_NOMBRE</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:17 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63374F21-4161-2ECA-6E43-C21C867CF186"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

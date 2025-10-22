@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DOCENTE" directorySegmentName="seg_0" id="8B189C21-E45A-2B96-62BF-CA81C4B708CC">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<schemaObject>192670CC-985B-9EBA-3858-0C008862BE08</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E263ECB1-038E-E996-182C-9ED0D15B8304</segment>
+<tableSpace>8E28251C-8494-9C5C-F748-A33C152295C4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>QUERY HIGH</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TELEFONO" id="111DC7ED-C559-4045-E3B8-8A600FA2C1F5">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDOS" id="2B346E4A-9E81-F1EC-96BA-412487A58E9C">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_DOCENTE" id="2F8A7A6A-9395-DEB2-BFDF-A8FC343F2EFE">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="ESPECIALIDAD" id="6B5E8A33-FED9-3A0C-072E-360A7718950B">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRES" id="71B481CB-88D3-E522-8DBF-54995C97222B">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADO" id="83468525-57BF-8887-4BE9-94EE2E32A0F6">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<defaultValue>&apos;ACTIVO&apos;</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="RUT_DV" id="8E967469-6FD9-B41D-5835-36C90045D08F">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RUT_NUM" id="968B5F64-A2F2-CE84-7AFF-308118BB9AAF">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMAIL" id="DA589D4C-2AF7-3B83-F7D9-3A6A6802DE27">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="UQ_DOCENTE_RUT" id="D319385E-F32D-3586-110A-0EF579E1930E">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:17 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<schemaObject>192670CC-985B-9EBA-3858-0C008862BE08</schemaObject>
+<segment>CC16ED3B-9513-E78E-0F04-9E7A1F5C12B7</segment>
+<tableSpace>8E28251C-8494-9C5C-F748-A33C152295C4</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DOCENTE_PK" id="F77D538D-5426-2732-2611-637513D65FEF">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:19 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<schemaObject>192670CC-985B-9EBA-3858-0C008862BE08</schemaObject>
+<segment>CC16ED3B-9513-E78E-0F04-9E7A1F5C12B7</segment>
+<tableSpace>8E28251C-8494-9C5C-F748-A33C152295C4</tableSpace>
+<indexSegment>CC16ED3B-9513-E78E-0F04-9E7A1F5C12B7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="UQ_DOCENTE_RUT" id="878C920B-13BA-6C01-6793-CD6C9A2A1493">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:19 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<segment>CC16ED3B-9513-E78E-0F04-9E7A1F5C12B7</segment>
+<tableSpace>8E28251C-8494-9C5C-F748-A33C152295C4</tableSpace>
+<existingIndex>D319385E-F32D-3586-110A-0EF579E1930E</existingIndex>
+<indexSegment>CC16ED3B-9513-E78E-0F04-9E7A1F5C12B7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev12c>

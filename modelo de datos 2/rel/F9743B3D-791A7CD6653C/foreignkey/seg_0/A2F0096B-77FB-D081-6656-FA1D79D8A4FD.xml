@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2F0096B-77FB-D081-6656-FA1D79D8A4FD" containerWithKeyObject="7893B64D-3515-BCA9-5206-5BD1878AFAFA" localFKIndex="D0176540-A7EF-8EBB-D17C-B8CB6B424BDF" name="FK_PRE_ASIG">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>FK_PRE_ASIG</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<referredTableLongName>BSAAVEDRA.ASIGNATURA</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>B65F6748-6948-5B26-0489-4A9CDEC1E781</referredTableID>
+<keyObject>637169C0-03D3-3E85-78DF-ADCF2D589E00</keyObject>
+<referredKeyID>637169C0-03D3-3E85-78DF-ADCF2D589E00</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ASIGNATURA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

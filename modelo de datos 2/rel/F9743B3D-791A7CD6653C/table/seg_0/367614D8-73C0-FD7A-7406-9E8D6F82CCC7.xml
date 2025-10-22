@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="367614D8-73C0-FD7A-7406-9E8D6F82CCC7" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="EVALUACION">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>EVALUACION</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Evaluaciones con ponderación; por sección deben sumar 100%.]]></commentInRDBMS>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EVALUACION" id="E3B7C4D7-4180-0223-865B-193B8FE83A53">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>EVALUACION</sourceObjSchema>
+<sourceObjName>ID_EVALUACION</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ID_SECCION" id="FFEDE243-9F4B-B53B-F84D-52C07AC13F2E">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>EVALUACION</sourceObjSchema>
+<sourceObjName>ID_SECCION</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F00C394-AFC1-2103-CEDE-A6A835EDFA6C" referredColumn="E21BB26A-71AF-5071-C9B0-D464A3C08002"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="4E8B7A6E-DE30-CE2A-E2DB-CB6B4DBB3C19">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>EVALUACION</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="08745F93-2365-8664-B254-124D8D92CAA7">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>EVALUACION</sourceObjSchema>
+<sourceObjName>TIPO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<constraintName>CK_EVAL_TIPO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;CONTROL&apos;" description=""/>
+<valueDef value="&apos;EXAMEN&apos;" description=""/>
+<valueDef value="&apos;LAB&apos;" description=""/>
+<valueDef value="&apos;OTRO&apos;" description=""/>
+<valueDef value="&apos;PROYECTO&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_EVAL" id="E0DE0852-C426-FCF0-B1A8-FE41DE05F8F9">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>EVALUACION</sourceObjSchema>
+<sourceObjName>FECHA_EVAL</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PONDERACION" id="3F9365DA-9437-39B7-5DD7-D70DC7582F2E">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>EVALUACION</sourceObjSchema>
+<sourceObjName>PONDERACION</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<constraintName>CK_EVAL_POND</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC20EA87-0FA8-118D-68CF-A8D14D20C9EE" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="EVALUACION_PK">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>SYS_C00381266</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:17 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3B7C4D7-4180-0223-865B-193B8FE83A53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E01FE492-9659-51D9-7884-45E9B13CBB85" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="IX_EVAL_SECCION">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>IX_EVAL_SECCION</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:17 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFEDE243-9F4B-B53B-F84D-52C07AC13F2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="984C0A87-944A-1D2C-F139-111595FCBF36" name="FK_EVAL_SECCION">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFEDE243-9F4B-B53B-F84D-52C07AC13F2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

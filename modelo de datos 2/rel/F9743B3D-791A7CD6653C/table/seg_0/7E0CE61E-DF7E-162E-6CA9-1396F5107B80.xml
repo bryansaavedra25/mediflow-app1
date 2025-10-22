@@ -1,0 +1,179 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E0CE61E-DF7E-162E-6CA9-1396F5107B80" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="NOTA">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>NOTA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[Notas por alumno y evaluación, rango 1.0 a 7.0.]]></commentInRDBMS>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_NOTA" id="CD686BD0-F2D2-CCF7-B96F-0023442058F9">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>NOTA</sourceObjSchema>
+<sourceObjName>ID_NOTA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ID_EVALUACION" id="939BC140-E941-F000-4E3C-5715DBBC31B6">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>NOTA</sourceObjSchema>
+<sourceObjName>ID_EVALUACION</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="80C90860-94CC-4C7F-242F-06368DC05001" referredColumn="E3B7C4D7-4180-0223-865B-193B8FE83A53"/>
+</associations>
+</Column>
+<Column name="ID_ALUMNO" id="9B3888C2-DE2D-0453-53D8-FAF8598F6E18">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>NOTA</sourceObjSchema>
+<sourceObjName>ID_ALUMNO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC844B02-275A-5B01-236C-182B568CEAC6" referredColumn="796B9287-31E5-1485-B55F-4FCE0646D9B4"/>
+</associations>
+</Column>
+<Column name="NOTA" id="4AF5F131-3114-54CC-1A89-60259AE26D1C">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>NOTA</sourceObjSchema>
+<sourceObjName>NOTA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<constraintName>CK_NOTA_RANGO</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1.0</beginValue>
+<endValue>7.0</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="OBSERVACIONES" id="B909CCF5-3176-A217-4948-FC3BC922F8B4">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>NOTA</sourceObjSchema>
+<sourceObjName>OBSERVACIONES</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 BYTE</dataTypeSize>
+<ownDataTypeParameters>300 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="18FE541C-3F91-E12A-5596-9409E4AA4E7A" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="NOTA_PK">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>SYS_C00381273</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:18 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD686BD0-F2D2-CCF7-B96F-0023442058F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="13E8A328-0396-A60C-A25E-FD7F19693117" name="UQ_NOTA">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>UQ_NOTA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:19 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="939BC140-E941-F000-4E3C-5715DBBC31B6"/>
+<colUsage columnID="9B3888C2-DE2D-0453-53D8-FAF8598F6E18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE1F3EE4-1ADA-BAA5-732A-023C7F32F775" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="IX_NOTA_ALUMNO">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>IX_NOTA_ALUMNO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:18 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B3888C2-DE2D-0453-53D8-FAF8598F6E18"/>
+<colUsage columnID="939BC140-E941-F000-4E3C-5715DBBC31B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE9A1A33-4B75-ACE1-0CF2-62D111CB9050" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="UQ_NOTA">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>UQ_NOTA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:18 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="939BC140-E941-F000-4E3C-5715DBBC31B6"/>
+<colUsage columnID="9B3888C2-DE2D-0453-53D8-FAF8598F6E18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4D33FF6-E412-52A7-FEAA-4D2D60B0A225" name="FK_NOTA_ALUMNO">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B3888C2-DE2D-0453-53D8-FAF8598F6E18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE5F15A4-C3F9-1644-6AAC-B2993939D286" name="FK_NOTA_EVAL">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="939BC140-E941-F000-4E3C-5715DBBC31B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,184 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B65F6748-6948-5B26-0489-4A9CDEC1E781" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="ASIGNATURA">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>ASIGNATURA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ASIGNATURA" id="79FB5F11-25FC-AD53-5648-DC405ABB4792">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>ID_ASIGNATURA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ID_CARRERA" id="966CBE41-4372-3A06-3CFF-E90F392A0B0D">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>ID_CARRERA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09E42AA2-BDF6-78DA-8AD3-2E57D60A8D12" referredColumn="D654B767-7174-4B7F-B2E6-72C7282878E5"/>
+</associations>
+</Column>
+<Column name="CODIGO" id="5A6AFAB6-BBF4-CACD-8FE3-411BF485F9B0">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="DF0B4891-357A-6E84-61A1-CF9ADE1AAFD1">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEMESTRE_SUGERIDO" id="3794A723-B468-DEE7-E67D-89FF2AAC81BC">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>SEMESTRE_SUGERIDO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CREDITOS" id="FD094EEE-426C-36DB-E5EB-3F4F1B8434E2">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>CREDITOS</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<constraintName>CK_ASIG_CREDITOS</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>20</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="HORAS_SEMANALES" id="0C97A2D3-73D2-B2DC-8E7D-F4E3DBDFF813">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>ASIGNATURA</sourceObjSchema>
+<sourceObjName>HORAS_SEMANALES</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="637169C0-03D3-3E85-78DF-ADCF2D589E00" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="ASIGNATURA_PK">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>SYS_C00381199</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:17 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="79FB5F11-25FC-AD53-5648-DC405ABB4792"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87F6CD86-684D-EBB6-184A-D93B29D68A47" name="UQ_ASIG_COD_CARR">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>UQ_ASIG_COD_CARR</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:19 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="966CBE41-4372-3A06-3CFF-E90F392A0B0D"/>
+<colUsage columnID="5A6AFAB6-BBF4-CACD-8FE3-411BF485F9B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B85E8974-EA23-4B7C-5BC7-7BD1A96E0CD5" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="UQ_ASIG_COD_CARR">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>UQ_ASIG_COD_CARR</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:17 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="966CBE41-4372-3A06-3CFF-E90F392A0B0D"/>
+<colUsage columnID="5A6AFAB6-BBF4-CACD-8FE3-411BF485F9B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE9319DD-7AF9-1C14-F7CF-48FBCD0A731B" name="FK_ASIG_CARRERA">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="966CBE41-4372-3A06-3CFF-E90F392A0B0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

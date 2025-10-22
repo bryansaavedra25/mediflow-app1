@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="USUARIO" directorySegmentName="seg_0" id="77C3F150-BF6F-02B9-2627-E44FB0629378">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<schemaObject>192670CC-985B-9EBA-3858-0C008862BE08</schemaObject>
+<dataSegmentCompression>YES</dataSegmentCompression>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E263ECB1-038E-E996-182C-9ED0D15B8304</segment>
+<tableSpace>8E28251C-8494-9C5C-F748-A33C152295C4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<compressionType>QUERY HIGH</compressionType>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE" id="01ECA604-2BB2-B2E1-BAB8-A75C407202A3">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLAVE" id="219EE314-CDB9-B20D-57AD-08C4F0CCF6E2">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO" id="3E0AEC3D-BB31-C983-ECF6-8A01D39B739C">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ALUMNO" id="6D9CBED5-50B5-8595-430C-471D26E9D1C3">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO" id="D6A9CF95-6EE5-E7B7-8AFA-6148C4E053A7">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_USUARIO_ALUMNO" id="0ECD66FD-7D32-BD12-847F-03B59F1CC69F">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="USUARIO_PK" id="ACD87DCE-B804-BD36-76A6-5E2187202B16">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:19 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<schemaObject>192670CC-985B-9EBA-3858-0C008862BE08</schemaObject>
+<segment>CC16ED3B-9513-E78E-0F04-9E7A1F5C12B7</segment>
+<tableSpace>8E28251C-8494-9C5C-F748-A33C152295C4</tableSpace>
+<indexSegment>CC16ED3B-9513-E78E-0F04-9E7A1F5C12B7</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

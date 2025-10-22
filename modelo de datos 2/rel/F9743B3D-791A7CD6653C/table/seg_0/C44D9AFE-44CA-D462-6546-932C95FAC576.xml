@@ -1,0 +1,233 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C44D9AFE-44CA-D462-6546-932C95FAC576" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="SECCION">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>SECCION</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SECCION" id="E21BB26A-71AF-5071-C9B0-D464A3C08002">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>SECCION</sourceObjSchema>
+<sourceObjName>ID_SECCION</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="ID_ASIGNATURA" id="32DB1B4F-F8D3-1171-F0EB-6FB11AF3ECED">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>SECCION</sourceObjSchema>
+<sourceObjName>ID_ASIGNATURA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5750A97F-5CC2-0DA5-45D4-29CB9321C3A9" referredColumn="79FB5F11-25FC-AD53-5648-DC405ABB4792"/>
+</associations>
+</Column>
+<Column name="ID_PERIODO" id="09A6FD16-DC2D-5E07-08B3-D954A2EF6756">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>SECCION</sourceObjSchema>
+<sourceObjName>ID_PERIODO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB15C90E-93F4-9184-54C9-F6361E49C618" referredColumn="8C2112C6-A5E6-EAC6-9199-107DA7E52E68"/>
+</associations>
+</Column>
+<Column name="ID_DOCENTE" id="33C41BF6-3074-F951-0FB0-C06CCBE3D85D">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>SECCION</sourceObjSchema>
+<sourceObjName>ID_DOCENTE</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B1C2843-4EE1-AAF6-FB20-1E89955BDE1F" referredColumn="2F8A7A6A-9395-DEB2-BFDF-A8FC343F2EFE"/>
+</associations>
+</Column>
+<Column name="CODIGO" id="53502F5E-146B-00C1-849D-BADAAA5F601E">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>SECCION</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CUPOS" id="B7790A85-691C-5689-40EB-C426CA238861">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>SECCION</sourceObjSchema>
+<sourceObjName>CUPOS</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<constraintName>CK_SEC_CUPOS</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="cupos &gt;= 0 AND cupos &lt;= 200"/>
+<implementationDef dbType="Oracle Database 12cR2" definition="cupos &gt;= 0 AND cupos &lt;= 200"/>
+</checkConstraint>
+<ownDataTypeParameters>,3,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HORARIO" id="3305ACB4-00E0-B327-AC50-D2160CF51ACA">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>SECCION</sourceObjSchema>
+<sourceObjName>HORARIO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 BYTE</dataTypeSize>
+<ownDataTypeParameters>120 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALA" id="D2C140E2-F313-77E3-43C8-4A3240C1949F">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>SECCION</sourceObjSchema>
+<sourceObjName>SALA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAA22B40-6D80-73D1-8B6D-DC72A4CA460D" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="SECCION_PK">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>SYS_C00381244</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:18 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E21BB26A-71AF-5071-C9B0-D464A3C08002"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DEEE5DE-4334-1783-4672-6D11D5C0816D" name="UQ_SEC">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>UQ_SEC</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:19 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32DB1B4F-F8D3-1171-F0EB-6FB11AF3ECED"/>
+<colUsage columnID="09A6FD16-DC2D-5E07-08B3-D954A2EF6756"/>
+<colUsage columnID="53502F5E-146B-00C1-849D-BADAAA5F601E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="495498F1-8C0C-F898-3114-DA2AB1901378" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="IX_SECCION_DOCENTE">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>IX_SECCION_DOCENTE</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:18 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33C41BF6-3074-F951-0FB0-C06CCBE3D85D"/>
+<colUsage columnID="09A6FD16-DC2D-5E07-08B3-D954A2EF6756"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="668A33EA-1BA1-9B6E-947D-D87E0BC2EF97" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="UQ_SEC">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>UQ_SEC</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:18 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32DB1B4F-F8D3-1171-F0EB-6FB11AF3ECED"/>
+<colUsage columnID="09A6FD16-DC2D-5E07-08B3-D954A2EF6756"/>
+<colUsage columnID="53502F5E-146B-00C1-849D-BADAAA5F601E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EB4FC64-091E-407A-F40A-1E01B76A1461" name="FK_SEC_ASIG">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32DB1B4F-F8D3-1171-F0EB-6FB11AF3ECED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C26AA74-036C-E54C-06ED-F1AC992F3B1F" name="FK_SEC_DOCENTE">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="33C41BF6-3074-F951-0FB0-C06CCBE3D85D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C33A0458-C01F-20BA-B6EC-3F12664A687A" name="FK_SEC_PERIODO">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09A6FD16-DC2D-5E07-08B3-D954A2EF6756"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

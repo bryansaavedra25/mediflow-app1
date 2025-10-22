@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7893B64D-3515-BCA9-5206-5BD1878AFAFA" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="PRERREQUISITO">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>PRERREQUISITO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ASIGNATURA" id="B74883C8-69FD-440B-42A6-4D0E12CA31A3">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>PRERREQUISITO</sourceObjSchema>
+<sourceObjName>ID_ASIGNATURA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2F0096B-77FB-D081-6656-FA1D79D8A4FD" referredColumn="79FB5F11-25FC-AD53-5648-DC405ABB4792"/>
+</associations>
+</Column>
+<Column name="ID_ASIG_REQUISITO" id="9709BABF-601E-1806-0A0F-84E2B69D3576">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>PRERREQUISITO</sourceObjSchema>
+<sourceObjName>ID_ASIG_REQUISITO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:13 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0BB3A16-4B58-2B71-5788-3DCCB00918E4" referredColumn="79FB5F11-25FC-AD53-5648-DC405ABB4792"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8367515C-36ED-0CBE-E4DE-2CC3DF7C4822" name="PK_PRERREQUISITO">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>PK_PRERREQUISITO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:19 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B74883C8-69FD-440B-42A6-4D0E12CA31A3"/>
+<colUsage columnID="9709BABF-601E-1806-0A0F-84E2B69D3576"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1245842A-6A3D-1BC0-66F4-AF28D5B56B3C" schemaObject="192670CC-985B-9EBA-3858-0C008862BE08" name="PK_PRERREQUISITO">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>PK_PRERREQUISITO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:18 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B74883C8-69FD-440B-42A6-4D0E12CA31A3"/>
+<colUsage columnID="9709BABF-601E-1806-0A0F-84E2B69D3576"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0176540-A7EF-8EBB-D17C-B8CB6B424BDF" name="FK_PRE_ASIG">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B74883C8-69FD-440B-42A6-4D0E12CA31A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD703680-E4DC-97F5-BA96-7A9932FDFA03" name="FK_PRE_ASIG_REQ">
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9709BABF-601E-1806-0A0F-84E2B69D3576"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_PRE_DISTINTO" directorySegmentName="seg_0" id="61AEB3AE-F608-802C-DA43-534151B5352B">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>CK_PRE_DISTINTO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<rule><![CDATA[id_asignatura <> id_asig_requisito]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

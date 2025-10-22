@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F0A35CD-1981-C767-1A78-89C3F33EBC94" containerWithKeyObject="105D7D5F-CBA5-DB68-BC01-5B7081855200" localFKIndex="E46FCC73-1AB9-E6CC-DA50-FEE5748916B9" name="FK_ASIST_ALUMNO">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>FK_ASIST_ALUMNO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-10-22 19:18:22 UTC</createdTime>
+<ownerDesignName>modelo de datos 2</ownerDesignName>
+<referredTableLongName>BSAAVEDRA.ALUMNO</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>C9288443-CD6F-C977-9A39-75422129F046</referredTableID>
+<keyObject>4EEE2252-0F15-727E-F6D8-80E7FEA6600C</keyObject>
+<referredKeyID>4EEE2252-0F15-727E-F6D8-80E7FEA6600C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ALUMNO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
