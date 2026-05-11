@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="337B1CAC-83A7-04D2-9C3A-3EA0C13C8A84" schemaObject="C975734E-0B95-9CD6-0434-CB5FB292B5BD" name="CALIFICACIONES">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>CALIFICACIONES</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-12-16 18:21:15 UTC</createdTime>
+<ownerDesignName>diagrama </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CALIFICACION" id="A82B502E-8783-C1F6-E271-EFFB5FA3D9BE">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>CALIFICACIONES</sourceObjSchema>
+<sourceObjName>ID_CALIFICACION</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-12-16 18:21:15 UTC</createdTime>
+<ownerDesignName>diagrama </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<defaultOntNull>true</defaultOntNull>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementDisableCache>false</autoIncrementDisableCache>
+<autoIncrementCache>20</autoIncrementCache>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="RUT_EST" id="9C169199-054E-F1E3-E479-1918A5A87237">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>CALIFICACIONES</sourceObjSchema>
+<sourceObjName>RUT_EST</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-12-16 18:21:15 UTC</createdTime>
+<ownerDesignName>diagrama </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A8A5F23-332B-8364-D54C-5BAA67968949" referredColumn="2B312B9B-E531-A46C-8F60-04DB50D12589"/>
+</associations>
+</Column>
+<Column name="ID_CURSO" id="4E532B32-3DC1-9B0B-78D5-2BE9F4BD9C9A">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>CALIFICACIONES</sourceObjSchema>
+<sourceObjName>ID_CURSO</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-12-16 18:21:15 UTC</createdTime>
+<ownerDesignName>diagrama </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E1E0BCF-78EF-3C5A-32FE-D827A7282088" referredColumn="AE5B14FB-3B93-3F89-DD37-3AA9E4169322"/>
+</associations>
+</Column>
+<Column name="NOTA" id="1ACFB12D-EBA8-39AB-92BA-2A90DDA9EEA5">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>CALIFICACIONES</sourceObjSchema>
+<sourceObjName>NOTA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-12-16 18:21:15 UTC</createdTime>
+<ownerDesignName>diagrama </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,3,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA" id="8BEB00A0-1324-FC4C-635A-78DF8EA2290F">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>CALIFICACIONES</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-12-16 18:21:15 UTC</createdTime>
+<ownerDesignName>diagrama </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DC82584C-1951-5505-9B5D-D2558CE92105" schemaObject="C975734E-0B95-9CD6-0434-CB5FB292B5BD" name="CALIFICACIONES_PK">
+<sourceConnName>bryan</sourceConnName>
+<sourceObjSchema>BSAAVEDRA</sourceObjSchema>
+<sourceObjName>SYS_C00616261</sourceObjName>
+<createdBy>usuario</createdBy>
+<createdTime>2025-12-16 18:21:18 UTC</createdTime>
+<ownerDesignName>diagrama </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A82B502E-8783-C1F6-E271-EFFB5FA3D9BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB08EBEE-5AEF-2D53-E1C6-B4B5EB4526DC" name="FK_CALIF_CURSO">
+<createdBy>usuario</createdBy>
+<createdTime>2025-12-16 18:21:23 UTC</createdTime>
+<ownerDesignName>diagrama </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E532B32-3DC1-9B0B-78D5-2BE9F4BD9C9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3F5AED4E-9A3C-566A-4BD7-AAC6E131F554" name="FK_CALIF_EST">
+<createdBy>usuario</createdBy>
+<createdTime>2025-12-16 18:21:23 UTC</createdTime>
+<ownerDesignName>diagrama </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C169199-054E-F1E3-E479-1918A5A87237"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
